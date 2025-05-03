@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #261008;
+    --cor2: #593A28;
+    --cor3: #A69992;
+    --cor4: #D9C7B8; 
+    --cor5: #D99B66;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fcefdc;
+    color: #5e3d2c;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #402218;
+    color: white;
+  }
+  
+  .menu a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    display: flex;
+    padding: 40px;
+    background-color: #fffaf2;
+  }
+  
+  .imagem-cafe img {
+    width: 300px;
+    border-radius: 50%;
+  }
+  
+  .texto-hero {
+    margin-left: 40px;
+    max-width: 600px;
+  }
+  
+  .texto-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .redes-sociais {
+    margin-top: 20px;
+  }
+  
