@@ -1,11 +1,18 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poiret+One&display=swap');
+
+
 :root {
     --cor1: #261008;
     --cor2: #593A28;
     --cor3: #A69992;
     --cor4: #D9C7B8; 
     --cor5: #D99B66;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: "Cookie", cursive;
+    --fonte-light: "Poiret One", sans-serif;
 }
 
 * {
@@ -13,52 +20,75 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fcefdc;
-    color: #5e3d2c;
-    margin: 0;
-    padding: 0;
-  }
-  
+ 
   .header {
+    background-color: var(--cor2);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #402218;
-    color: white;
+    padding: 20px 0px 20px 20px;
+    margin: 0px 0px;
   }
-  
-  .menu a {
-    color: white;
-    margin-left: 20px;
-    text-decoration: none;
+
+  .header h1 {
+    color: var(--cor4);
   }
-  
-  .hero {
+
+  nav {
     display: flex;
-    padding: 40px;
-    background-color: #fffaf2;
+    padding: 5px 5px;
   }
-  
-  .imagem-cafe img {
-    width: 300px;
-    border-radius: 50%;
+
+  nav ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin: 0px 40px 0px 0px;
+    padding: 0px;
+    font-size: clamp( 14px, 2vw, 20px);
   }
-  
-  .texto-hero {
-    margin-left: 40px;
+
+  nav ul li a {
+    color: var(--cor4);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .xicara img {
+    width: 100%;
     max-width: 600px;
   }
-  
-  .texto-hero h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+
+  .texto {
+    text-align: right;
   }
-  
-  .redes-sociais {
-    margin-top: 20px;
+
+  #descricao {
+    font-family: var(--fonte-light);
+    font-weight: bold;
+    margin: 20px 0px 20px;
   }
-  
+
+  #horario {
+    color: var(--cor2);
+    font-family: var(--fonte-light);
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.5em;
+    margin: 20px 0px 20px;
+  }
+
+  .texto h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: lighter;
+    color: var(--cor2);
+    font-size: 5em;
+  }
