@@ -191,6 +191,23 @@
     margin: 20px 20px;
   }
 
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  .whatsapp-btn img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-btn img:hover {
+    transform: scale(1.1);
+  }
+
   footer {
     background-color: var(--cor1);
     color: var(--cor4);
@@ -253,5 +270,12 @@
 
     p#horario {
       text-align: center;
+    }
+
+    .produtos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
     }
   }
