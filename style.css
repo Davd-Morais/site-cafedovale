@@ -259,18 +259,18 @@
     }
 
     .xicara {
-      width: 300px;
+      width: 200px;
       margin: 0px;
     }
 
     .texto h2{
       text-align: center;
-      font-size: 3em;
+      font-size: 2em;
     }
 
     p#descricao {
       text-align: center;
-      width: 400px;
+      width: 300px;
     }
 
     p#horario {
