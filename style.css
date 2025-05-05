@@ -251,6 +251,7 @@
 
     .container {
       display: flex;
+      justify-content: center;
       flex-direction: column;
       padding: 0px;
       padding-top: 20px;
@@ -264,11 +265,12 @@
 
     .texto h2{
       text-align: center;
+      font-size: 3em;
     }
 
     p#descricao {
       text-align: center;
-      width: 450px;
+      width: 400px;
     }
 
     p#horario {
