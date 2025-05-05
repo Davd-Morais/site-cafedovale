@@ -224,6 +224,7 @@
   @media (max-width: 600px) {
 
     .header {
+      display: none;
       text-align: center;
       margin: auto;
     }
@@ -245,6 +246,7 @@
     nav ul li a {
       font-family: var(--fonte-light);
       color: var(--cor1);
+      text-align: center;
       font-size: 1.5em;
       text-decoration: none;
       font-weight: 600;
