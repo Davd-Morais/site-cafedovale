@@ -224,10 +224,13 @@
   @media (max-width: 600px) {
 
     .header {
-      display: flex;
-      justify-content: center;
+      text-align: center;
+      margin: auto;
+    }
+
+    .menu {
+      width: 91vw;
       padding: 0px;
-      width: 100%;
     }
 
     .header h1 {
@@ -235,9 +238,8 @@
     }
     
     nav ul {
-      gap: 50px;
+      gap: 30px;
       padding: 0px;
-      margin: auto;
     }
 
     nav ul li a {
